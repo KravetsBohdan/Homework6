@@ -12,7 +12,7 @@ class CarTest {
     void shouldAbleToDrive() {
         Car car = new Car(40, 5, LocalDate.now().minusYears(1));
 
-        boolean ableDrive = car.isAbleDrive();
+        boolean ableToDrive = car.isAbleDrive();
 
         assertTrue(ableDrive);
     }
