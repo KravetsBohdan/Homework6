@@ -18,7 +18,7 @@ class CarTest {
     }
 
     @Test
-    void shouldNotAbleToDrive() {
+    void shouldNotBeAbleToDrive() {
         Car car = new Car(0, 5, LocalDate.now().minusYears(1));
 
         boolean ableDrive = car.isAbleDrive();
